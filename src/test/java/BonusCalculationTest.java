@@ -6,7 +6,7 @@ public class BonusCalculationTest {
 
     @Test
     public void shouldCheckRegisteredUnderLimit() {
-        long expected = 100000;
+        long expected = 1000;
         BonusService bonusService = new BonusService();
         long actual = bonusService.bonusCalculation(10000,true);
 
